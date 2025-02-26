@@ -263,5 +263,5 @@ cargo run
         fn delete_cell(&self, id: i32) -> Result<(), String> {
             self.client.execute("DELETE FROM cells WHERE id = $1", &[&id]).map_err(|
     ```
-    ##Лицензия
-  Этот проект лицензирован под лицензией MIT. Для получения дополнительной информации смотрите файл LICENSE.
+    ## Лицензия
+   Этот проект лицензирован под лицензией MIT. Для получения дополнительной информации смотрите файл LICENSE.
